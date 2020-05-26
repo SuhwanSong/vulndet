@@ -14,8 +14,8 @@ $ vagrant ssh
 ```
 
 ```
-$ git clone https://github.com/XXX/vulndet-public
-$ cd vulndet-public
+$ git clone https://github.com/SuhwanSong/vulndet.git
+$ cd vulndet
 $ source ./setup.sh
 $ ./check-install.sh
 ```
