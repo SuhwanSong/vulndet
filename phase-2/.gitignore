@@ -1,0 +1,5 @@
+*-fuzzer
+app*
+crash-*
+leak-*
+output/*
