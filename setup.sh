@@ -40,7 +40,7 @@ install_clang() {
 
 install_deps() {
     sudo apt update
-    sudo apt install -y curl gcc g++ make zlib1g-dev
+    sudo apt install -y curl gcc g++ make zlib1g-dev vim
 }
 
 get_afl() {
@@ -79,6 +79,7 @@ main() {
     install_deps
     get_afl
     say_info "All installation finished. Setting up environment..."
+    sudo su -c ./cpu
     setup_env
     say_info "Environment setting done! You are ready to go!"
 }
