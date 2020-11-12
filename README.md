@@ -7,8 +7,8 @@ use AFL and how to write fuzzer driver used by LibFuzzer.
 
 ### Setup
 ```
-$ vagrant box add ubuntu/xenial64
-$ vagrant init ubuntu/xenial64
+$ vagrant box add ubuntu/bionic64
+$ vagrant init ubuntu/bionic64
 $ vagrant up
 $ vagrant ssh
 ```
