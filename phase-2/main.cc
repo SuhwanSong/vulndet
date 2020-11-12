@@ -74,6 +74,9 @@ int main(int argc, char *argv[]) {
 
     if (buf)
         free(buf);
+    
+    if (data)
+        free(data);
 
     return 0;
 }
